@@ -1,0 +1,77 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Yellowtail&display=swap"); */
+/* @import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap"); */
+/* @import url("https://fonts.googleapis.com/css2?family=Gideon+Roman&family=Roboto+Condensed&display=swap"); */
+/* @import url("https://fonts.googleapis.com/css2?family=Gideon+Roman&family=Roboto+Condensed&display=swap"); */
+@import url("https://fonts.googleapis.com/css2?family=Crimson+Pro:ital@1&family=Gideon+Roman&family=Roboto+Condensed&display=swap");
+.nav {
+  top: 0;
+  position: sticky;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  height: 10vh;
+  align-items: center;
+  z-index: 99;
+}
+
+.nav > span {
+  margin-left: 5%;
+  font-size: 1cm;
+  font-family: "Crimson Pro", serif;
+}
+
+#logo {
+  color: #b6795f;
+  font-size: 0.9cm;
+  text-decoration: none;
+  font-weight: 650;
+}
+
+.links {
+  margin-right: 2%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.link {
+  color: black;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  font-weight: 650;
+  margin: 0px 5px;
+}
+
+.link:hover {
+  color: #b6795f;
+  cursor: pointer;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  min-width: 10px;
+  padding: 15px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 25px;
+  border: 0.2px solid rgb(216, 216, 216);
+}
+.dropdown a {
+  color: black;
+  padding: 8px 10px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown a:hover {
+  color: #b35127;
+  /* background-color: yellow; */
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}

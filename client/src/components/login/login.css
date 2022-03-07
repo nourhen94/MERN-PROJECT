@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Crimson+Pro:ital@1&family=Gideon+Roman&family=Roboto+Condensed&display=swap");
+
+.form {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  /* font-family: "Montserrat", sans-serif; */
+  font-family: "Crimson Pro", serif;
+  border: 1px solid #b6795f;
+  border-radius: 30px;
+  width: 32vw;
+  margin-block-start: 5%;
+  margin-left: 30%;
+  /* margin-right: 30%; */
+  height: 60vh;
+
+  background-image: url("https://i0.wp.com/zeevector.com/wp-content/uploads/2021/03/Light-color-brochure-background_free-download.jpg?fit=1455%2C2058&ssl=1");
+}
+
+input {
+  width: 27vw;
+  height: 4vh;
+  /* border: 1px solid rgb(231, 217, 245); */
+  border: 1px solid #b6795f;
+  /* background-origin: border-box; */
+  border-radius: 25px;
+  font-size: 12px;
+  padding-left: 10px;
+}
+
+label {
+  font-size: 16px;
+  margin-right: 70%;
+
+  /* font-family: "Montserrat", sans-serif; */
+  /* font-family: Arial, Helvetica, sans-serif; */
+}
+.button1 {
+  background-color: #b6795f;
+  color: black;
+  width: 27vw;
+  height: 5vh;
+  border: 1px solid white;
+  border-radius: 25px;
+  font-size: 22px;
+  font-family: "Crimson Pro", serif;
+  margin-block-start: 5%;
+}
+button:hover {
+  cursor: pointer;
+  border: 1px solid#b6795f;
+}
+
+/* .sign-in {
+  height: 50vh;
+} */
+.formSign-in {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  font-family: "Crimson Pro", serif;
+  border: 1px solid #b6795f;
+  border-radius: 30px;
+  margin-block-start: 5%;
+  margin-left: 30%;
+  /* margin-right: 30%; */
+  width: 30vw;
+  height: 45vh;
+
+  background-image: url("https://i0.wp.com/zeevector.com/wp-content/uploads/2021/03/Light-color-brochure-background_free-download.jpg?fit=1455%2C2058&ssl=1");
+}
+
+.account {
+  font-size: larger;
+  color: black;
+  padding: auto;
+}
+
+.account:hover{
+  cursor: pointer;
+  color: #b6795f;
+}
